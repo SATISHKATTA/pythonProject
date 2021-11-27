@@ -191,3 +191,65 @@ if name == "satish":
 else:
     print("please enter valid name")    """
 #------------------------------------------------------------------------------------------------------------
+"""# program to find the sum of all numbers stored in a list
+#list of numbers
+numbers = [1,2,3,4,5,6,7,8]
+#variables to store the sum
+sum = 0
+#iterate over the list
+for val in numbers:
+    sum = sum+val
+    print("Enter the values :",sum)"""
+
+"""
+numbers = (1,2,3,4,5,6,7,8)
+sum = 0
+for val in numbers:
+    sum = sum+val
+    print("Enter the values :",sum)
+ """
+"""
+numbers = {1,2,3,4,5,6,7,8,9}
+total = 0
+for val in numbers:
+    total = total+val
+    print("Enter the values :",total)
+    """
+"""str = "satish"
+for i in str:
+    print(i)
+"""
+
+"""
+number = int(input("Enter the number :"))
+for i in range(1,15):
+    table = i*number
+    print(i,"*",number ,"=",table)
+"""
+
+"""
+names = ["venkat","satish","suma","rinky"]
+for i in range(len(names)):
+    print("Good Morning",names[i])
+"""
+
+"""
+rows = int(input("Enter the rows :"))
+for i in range(0,rows + 1):
+    for j in range(i):
+        print("*", end = '')
+        print()
+  """
+
+"""
+for i in range(1,6):
+    print("*" * i )
+"""
+for i in range[7]:
+    print([],* i)
+
+
+
+
+
+

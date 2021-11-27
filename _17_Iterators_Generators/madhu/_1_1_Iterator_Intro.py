@@ -1,6 +1,27 @@
+"""python iterators:
+iterator means taking one value in a sequence of data and do some operations and
+then again taking another value in that sequence and do some operations this process
+goes on and on until the data in the  sequence completes this process is called as iteration
+"""
+"""for i in range(10):
+    print(i)"""
+
+# To create our own iterators python have 2 methods:
+# iter() or __iter__()
+# next() or __next__()
+
+list1 = [5,6,9,7,5,1]
+sai = iter(list1) #or list1__iter__()
+print(sai)
+print(next(sai))
+print(next(sai))
+
+
+
+
 # https://www.programiz.com/python-programming/iterator
 
-li = list()   # list([])
+"""li = list()   # list([])
 print("Empty list : ", li)
 
 li = []       # list([])
@@ -11,7 +32,7 @@ list1 = [1, 2, 3, 4]  # list1 = list([1,2,3,4])
 # Iterator Mechanism
 for each in list1:
     print(each)
-print("Outside for loop")
+print("Outside for loop")"""
 
 # Everything is an object in Python
 
@@ -26,7 +47,7 @@ Iterator  Generator     Generator
 Speed of execution : Iterator   --> More memory
 Memory efficiency  : Generator  --> Less speed
 '''
-print("-----------range-----------------")
+"""print("-----------range-----------------")
 for each in range(10):
     print(each)
 
@@ -34,7 +55,7 @@ print("-----------list1----------------")
 list1 = [1, 2, 3, 4]
 
 for each in list1:  # list1.__iter__()  ==> itr.__next__
-    print(each)
+    print(each)"""
 '''
 Step 1. On list object list1, __iter__() / iter() method will be called.
         list1.iter()  or list1.__iter__() 
@@ -76,7 +97,7 @@ Let us see how iterator works and how you can build your own iterator using __it
   => We use the next() function to manually iterate through all the items of an iterator. 
      When we reach the end and there is no more data to be returned, it will raise StopIteration
 '''
-print('---------Iterator For loop Mechanism-----------')
+"""print('---------Iterator For loop Mechanism-----------')
 my_list = [4, 7, 0, 3]
 print(my_list)  #  my_list.__str__()
 for each in my_list:
@@ -101,7 +122,7 @@ try:
     print(my_iter.__next__())
     print(my_iter.__next__()) # This will raise exception, as no items left in my_list
 except StopIteration as si:
-    print("Stopping iterations")  
+    print("Stopping iterations") """
 
 
 
@@ -147,10 +168,10 @@ Note that any other kind of exception will pass through.
 '''
 # Here, we show an example that will give us next power of 2 in each iteration. Power exponent starts from zero up to a user set number.
 
-class PowTwo:
+"""class PowTwo:
 
-    """Class to implement an iterator
-    of powers of two"""
+    Class to implement an iterator
+    of powers of two
     def __init__(self, max = 0):
         self.max = max
 
@@ -165,7 +186,7 @@ class PowTwo:
             return result
         else:
             #raise StopIteration
-            print("Stopping iteration")
+            print("Stopping iteration")"""
 
 
 '''
@@ -174,7 +195,7 @@ for i in PowTwo(5):
     print(i)
 '''
 
-print("-----PowTwo Manual iteration--------------")
+"""print("-----PowTwo Manual iteration--------------")
 #Now we can create an iterator and iterate through it as follows.
 myObj = PowTwo(7)
 myIter = iter(myObj) # myObj.__iter__()
@@ -186,7 +207,7 @@ print(next(myIter))
 print(next(myIter))
 print(next(myIter))
 print(next(myIter))
-#print(next(myIter)) # 9th time
+#print(next(myIter)) # 9th time"""
 '''
 print("------Auto for loop------")
 for each in myObj:
