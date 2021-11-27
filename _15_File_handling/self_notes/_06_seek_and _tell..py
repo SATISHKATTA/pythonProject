@@ -20,7 +20,7 @@ This will move the pointer to 9th byte (-10+1) from ending
 '''
 
 
-fi = open("text.txt", "r")
+fi = open("text1.txt", "r")
 # the second parameter of the seek method is by default 0
 fi.seek(30)
 # now, we will print the current position
@@ -33,7 +33,7 @@ fi.close()
 
 
 print()
-fi = open("text.txt", "r+")
+fi = open("text1.txt", "r+")
 print("Name of the file: ", fi.name)
 
 line_1 = fi.readline()
@@ -51,8 +51,8 @@ fi.close()
 
 
 print("__negative offset__")
-fi = open("text.txt", "rb")
-
+fi = open("text1.txt", "rb")
+"""
 # the user is setting the reference point to thirtieth position to the left from
 # end
 fi.seek(-70, 2)
@@ -63,4 +63,4 @@ print(fi.tell())
 # now the user will Convert the binary to string
 print(fi.readline().decode('utf-8'))
 
-fi.close()
+fi.close()"""
