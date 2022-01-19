@@ -129,8 +129,36 @@ print(x)
 """id = 101 #state
 name = "satish" #state
 print("Employee information :",(id,name)) # behaviour(expression)"""
+#------------------------------------------------------------------------------------------------
+"""
+name = ["Satish","Venkat","Rinky","Sumapriya","Bhavesh"]
+print( "Enter the names :",name)"""
 
-""""""
+"""name = "satish"
+id = 101
+print(name + id)
+#TypeError: can only oncatenate str (not "int") to str
+"""
+"""x = str(4)
+y = int(3)
+z = float(3)
+
+print(x)
+print(y)
+print(z)"""
+
+# Garbage collecion
+"""x = 4       # x is of type int
+x = "Sally" # x is now of type str
+print(x)
+"""
+
+name = "satish"
+print(len(name))
+count = 0
+for i in name:
+    count = count + 1
+print(count)
 
 
 

@@ -1,10 +1,9 @@
-"""file handling
+#file handling
 #open(name model)
 #close()
 #write()
 #read()
-"""
-"""#obj = open("e:/satish.text","w,r,a,w+,r+,a+")
+"""obj = open("e:/satish.text","w,r,a,w+,r+,a+")
 obj = open("e:/satish.text","w")
 obj.write("hello satish")
 obj.close() # closing is very imp"""

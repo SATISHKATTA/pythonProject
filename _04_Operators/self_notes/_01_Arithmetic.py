@@ -6,14 +6,15 @@ In this article, we will look into different types of Python operators"""
 #Arithmetic Operators
 """Arithmetic Operators are used to performing mathematical operations like addition,
 subtraction, multiplication, and division."""
-"""+ Addition: adds two operands x + y
+"""
++ Addition: adds two operands x + y
 – Subtraction: subtracts two operands x – y
 * Multiplication: multiplies two operands x * y
 / Division (float): divides the first operand by the second x / y
 % Modulus: returns the remainder when the first operand is
 divided by the second
 x % y
-** Power: Returns first raised to power second x ** y"""
+** Power: Returns first raised to power second x ** y
 
 # Examples of Arithmetic Operator
 a = 9
@@ -39,7 +40,7 @@ print(mul)
 print(div1)
 print(div2)
 print(mod)
+"""
 
-""""""
 
 
