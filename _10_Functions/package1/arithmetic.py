@@ -1,4 +1,4 @@
-def addition(*args):
+def adition(*args):
     return sum(args)
 
 def multiplication(*args):
