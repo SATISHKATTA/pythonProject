@@ -4,7 +4,7 @@ used to combine conditional statements."""
 
 """and Logical AND: True if both the operands are true x and y
 or Logical OR: True if either of the operands is true x or y
-not Logical NOT: True if the operand is false not x"""
+not Logical NOT: True if the operand is false not x
 # Examples of Logical Operator
 a = True
 b = False
@@ -15,13 +15,13 @@ print(a or b)
 # Print not a is False
 print(not a)
 
-
+"""
 
 
 """a = 123
 b = 233
 if(a < b):
-    print("True")"""
+    print("True")
 
 name = "satish"
 id = 101
@@ -30,11 +30,17 @@ print("Logical operation :",name and id)
 name = "satish"
 id = 101
 print("Logical operation :",(name or id))
+"""
 
 name = "venkat"
 id = 101
 print("Logical opration :",name and id)
 print("Logical operation:",name or id)
 
+a=1
+b=0
+print(a and b)
 
+a= 0
+print(not a)
 

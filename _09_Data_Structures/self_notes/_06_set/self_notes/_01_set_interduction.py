@@ -1,10 +1,8 @@
 """
 #SET:
-
 1.A Python set is the collection of the unordered items.
 Each element in the set must be unique, immutable, and the sets remove the duplicate elements.
 Sets are mutable which means we can modify it after its creation.
-
 2.Unlike other collections in Python, there is no index attached to the elements of the set.
 i.e., we cannot directly access any element of the set by the index.
 However, we can print them all together, or we can get the list of elements by looping through the set.

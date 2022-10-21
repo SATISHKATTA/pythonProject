@@ -16,7 +16,8 @@ copy                   : CREATE
 '''
 # 1. append(): It appends element(any value) at end of the list
              # list1.append(obj) Appends any object obj to list
-"""list1 = [1, 2, 3, 4, 5, 6]
+"""
+list1 = [1, 2, 3, 4, 5, 6]
 print("Before append : ",list1)
 list1.append(10)
 print("After append  : ", list1)
@@ -54,7 +55,7 @@ list1.append([10, 20])
 list1.extend([100, 200])
 print("List after append,extend : ",list1)
 
-# 3. pop
+# 3.pop
             # list.pop(obj=list[-1]) Removes and returns last object or obj from list
 list1 = [23, 12, 46, 34, 14, 34, 14, 7, 34, 2, 19, 25]
 print("Before pop   : ", list1)
@@ -67,7 +68,7 @@ rem_ele = list1.pop(0)
 print("Popped element : ",rem_ele)
 print("After  pop   : ",list1)
 
-# 4. remove
+# 4.remove
             # list.remove(obj)    Removes object obj from list
 list1 = [23, 12, 46, 34, 14, 34, 14, 7, 34, 2, 19, 25]
 print("Before removal : ", list1)

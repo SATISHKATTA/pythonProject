@@ -1,4 +1,4 @@
-#Python Sequence Types
+  #Python Sequence Types
 
 '''1 Some basic sequence type classes in python are, list, tuple, range.
 2 There are some additional sequence type objects, these are binary data

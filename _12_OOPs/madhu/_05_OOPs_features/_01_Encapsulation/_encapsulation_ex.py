@@ -19,3 +19,19 @@ Object  - Variables - Physical    <===>  Methods  - Logical
  
 
 '''
+class Student:
+    def __init__(self,id,name,email):
+        self.id = id
+        self.name = name
+        self.email = email
+    def student_details(self):
+        print("Student details")
+
+object = Student(101,"satish","satish123@gmail.com")
+object.student_details()
+
+list1 = [1,2,3,4,5,6,7,8,9]
+for i in list1:
+    if(i % 2 != 0):
+        print(i)
+

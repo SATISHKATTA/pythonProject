@@ -177,3 +177,19 @@ print('maketrans() & translate()')
 trans_string = "Dr. Hannibal Lecter is a fictional character in a series of suspense novels by Thomas Harris."
 # trans_table = maketrans("aioshc","@!0$#(")
 print(trans_string.translate(str.maketrans("aioshc", "@!0$#(")))
+
+st = input('Enter the string: ')
+
+flag = False
+c = 1
+
+for i in range(len(st)):
+    if flag == False and st[i] == ' ':
+        c += 1
+    if st[i] == ' ':
+        flag = True
+    else:
+        flag = False
+    i += 1
+
+print('No. of words: ', c)

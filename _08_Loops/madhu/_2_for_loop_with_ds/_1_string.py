@@ -1,4 +1,4 @@
-for <var> in <sequence>:
+#for <var> in <sequence>:
     # perform business logic
 '''
 print("--------For loop with String-------")
@@ -9,3 +9,4 @@ for char in msg:
 
 for element in msg:
     print("Character : ", element)
+'''

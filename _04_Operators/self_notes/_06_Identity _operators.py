@@ -11,3 +11,7 @@ b = 20
 c = a
 print(a is not b)
 print(a is c)"""
+
+a= 20
+f= 20
+print(a is not f)

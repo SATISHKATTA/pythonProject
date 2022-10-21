@@ -1,4 +1,4 @@
-#if-statement:
+ #if-statement:
 
 '''If the simple code of block is to be performed if the condition holds true then if
 statement is used. Here the condition mentioned holds true then the code of block
@@ -46,7 +46,7 @@ if a==b:
     print("condition is true")'''
 #-------------------------------------------------------------------------------------------------------------
 '''if set((10,32,43)):
-    print("true")
+    print("true") 
     if set():
         print("false")'''
 
@@ -81,8 +81,119 @@ if(x == y == z):
     print("true")
 """
 
-a = "12323,32424,43434,5453456"
+"""a = "12323,32424,43434,5453456"
 b = "545353,5435345,34434544"
 print("Adding the values:",(a+b))
 if (a < b):
-    print("True")
+    print("True")"""
+
+"""
+name = "venkat"
+name_1 = "satish"
+if(name > name_1):
+    print(True)
+    """
+
+"""
+age = 25
+age_1 = 23
+if(age > age_1):
+     print("age is higher")
+"""
+
+
+'''num = 5
+num1 = 7
+if(num < num1):
+   print("correct")'''
+
+'''num1 = 4356e456
+num2 = 78987785678876
+if(num1 < num)
+    print("correct")
+else:
+    print("incorrect")'''
+
+
+'''s = 9
+m =10
+if(s > m):
+  print("incorrect")'''
+
+'''s = 56
+m = 34
+if(s > m):
+  print("correct")'''
+'''kt = 45
+hu = 67
+if(kt > hu):
+    print("incorrect")'''
+
+'''l=[1,2,3]
+if 2 in l:
+    print('it is there')
+else:
+    print('it is not there')'''
+
+'''l=[1,3]
+if 2 in l:
+    print('it is there')
+else:
+    print('it is not there')'''
+
+
+'''s= int(input('enter the number:'))
+print(s)
+print(type(s))'''
+
+'''s=125
+t=150
+if s>t:
+    print('this is true')
+else:
+    print("thois is false")'''
+
+'''swet=87
+raji=98
+if swet<raji:
+    print('this is true')'''
+
+'''v=980
+f=183
+if v>f:
+    print('this is true')'''
+
+'''tr=254
+hg=345
+if tr>hg:
+    print('this is false')
+else:
+    print('this is swetha')
+
+sweta=56
+raji=89
+if sweta<=raji:
+    print('this is true')'''
+
+'''sweta="navya"
+raji="siri"
+if len(sweta)>=len(raji):
+    print('this ia true')'''
+
+'''s= [1,2,3]
+print(len(s))'''
+
+'''swet="raji"
+siri="sindhu"
+if len(swet)<=len(siri):
+   print('this is true')'''
+
+'''indhu="swetha"
+if indhu=='swetha':
+   print('true')
+else:
+   print('false')'''
+
+
+
+

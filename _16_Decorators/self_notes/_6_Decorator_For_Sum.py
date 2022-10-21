@@ -68,3 +68,7 @@ def ewallet_fund_transfer():
 def ecommerce_fund_transfer():
     pass
 
+name = "satish"
+print("Enter the name :",name)
+name[-1]
+

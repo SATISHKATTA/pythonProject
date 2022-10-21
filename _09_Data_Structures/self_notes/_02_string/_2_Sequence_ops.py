@@ -1,4 +1,4 @@
-# String sequence operations
+++++++++++++++++# String sequence operations
 
 message = 'HELLO WORLD'   # 0 1 2 3 4 5 6
 print(message)

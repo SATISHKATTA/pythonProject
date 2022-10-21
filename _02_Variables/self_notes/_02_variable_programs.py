@@ -145,13 +145,12 @@ z = float(3)
 
 print(x)
 print(y)
-print(z)"""
+print(z)
 
 # Garbage collecion
-"""x = 4       # x is of type int
+x = 4       # x is of type int
 x = "Sally" # x is now of type str
 print(x)
-"""
 
 name = "satish"
 print(len(name))
@@ -160,7 +159,18 @@ for i in name:
     count = count + 1
 print(count)
 
+a = "shiva"
+print(a)
 
+_name = "shiva"
+_name1 = "satish"
+print(_name)
+name1233 = "sai"
+print(name1233)
+"""
+name = "satish"
+for i in name :
+    print(name)
 
 
 

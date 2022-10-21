@@ -1,18 +1,22 @@
 #Python Functions:
 
-"""Python Functions is a block of related statements designed to perform a computational, logical,
+"""
+Python Functions is a block of related statements designed to perform a computational, logical,
 or evaluative task. The idea is to put some commonly or repeatedly done tasks together and make a
 function so that instead of writing the same code again and again for different inputs,
  we can do the function calls to reuse code contained in it over and over again.
 
 Functions can be both built-in or user-defined. It helps the
- program to be concise, non-repetitive, and organized."""
+program to be concise, non-repetitive, and organized.
+ """
 
 
-"""def function_name(parameters):
+"""
+def function_name(parameters):
     docstring
     statement(s)
-    return expression"""
+    return expression
+"""
 
 
 """# A simple Python function
@@ -191,7 +195,7 @@ sum is : 30
 -->Python has a different way of representing syntax and default values for function arguments. Default values indicate that the function argument will take that value if no argument value is passed during function call.
 
 example:
---------
+--------           
 def func(msg1, msg2 = ' how are you'):
     result = msg1 + msg2
     print('message is :', result)

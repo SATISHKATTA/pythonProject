@@ -99,6 +99,8 @@ madhu.get_einfo()
 
 
 
+
+
 class Student:
 
     # 1. STATE
@@ -113,3 +115,5 @@ class Student:
 
 madhu = Student(23, 'Madhu Nettem', 65)
 madhu.get_sinfo()
+
+

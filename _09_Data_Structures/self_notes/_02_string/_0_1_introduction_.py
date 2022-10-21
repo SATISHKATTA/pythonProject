@@ -6,6 +6,9 @@ boolean  : True False
 '''
 
 # STRING  # Group of characters
+
+name = 'naveen'
+print(name)
 '''
 Registration Form
 =====================
@@ -223,8 +226,7 @@ The single quotes inside the string must be escaped. We can apply the same as in
 
 **LIST OF ESCAPE SEQUENCES:?
 
-
-1.	\newline	                       
+1. \newline	                       
 
 It ignores the new line.	
 
@@ -416,9 +418,7 @@ Format Symbol	                            Conversion
 %g	                                       the shorter of %f and %e
 %G	                                       the shorter of %f and %E
 
-
 ----------------------------------------**-----------------------------------------------------------------------------
-
 **STRING CONCATINATION:
 
 String Concatenation is the technique of combining two strings. 
@@ -434,7 +434,13 @@ We can perform string concatenation using following ways:
 
 4.Using format() function 
 
-5.Using , (comma)"""
+5.Using , (comma)
+"""
+
+
+
+
+
 
 
 

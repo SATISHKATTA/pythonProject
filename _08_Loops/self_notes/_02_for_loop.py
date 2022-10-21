@@ -245,10 +245,6 @@ for i in range(0,rows + 1):
 for i in range(1,6):
     print("*" * i )
 """
-for i in range[7]:
-    print([],* i)
-
-
 
 
 

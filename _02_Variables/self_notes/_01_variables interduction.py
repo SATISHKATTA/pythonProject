@@ -1,6 +1,7 @@
 # Python Variables:
 """. A variable is created the moment we first assign a value to it. A
-variable is a name given to a memory location. It is the basic unit of storage in a
+variable is a name given to a memory location. It is the basic unit of storage in a00000363663
+
 program.
 """
 
@@ -728,25 +729,9 @@ b = 6
 print(a,b)  
 # separate the variables by the comma  
 Print(1, 2, 3, 4, 5, 6, 7, 8)   
+"""
 
-*Output:*
+a= 10
+b =23
+print(a+b)
 
-5 6
-1 2 3 4 5 6 7 8
-
---------------------------------------------------------------------------------------------------------------------------
-
-x = 10
-For
-ex: Binary
-values
-from decimal number
-
-x = 10: Writing
-data
-00001010 <-> 1
-byte
-00001010
-
-
---------------------------------------------------**--------------------------------------------------"""

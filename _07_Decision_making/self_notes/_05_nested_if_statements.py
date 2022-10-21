@@ -181,3 +181,15 @@ if name == "kumar":
         print("----incorrect date of birth")
 else:
     print("---enter currect your name---")'''
+
+a = 10
+b = 20
+c =40
+if a<b:
+    print('b:',b)
+    if c>b:
+        print('c:',c)
+        if a>c:
+            print('a')
+        else:
+            print('c')

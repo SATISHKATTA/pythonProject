@@ -20,3 +20,7 @@ print("y is present in given list")
 else:
 print("y is NOT present in given list")
 """
+
+a =[1,2,3]
+x= 1
+print(x  not in a)

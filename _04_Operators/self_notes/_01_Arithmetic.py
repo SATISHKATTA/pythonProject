@@ -40,7 +40,28 @@ print(mul)
 print(div1)
 print(div2)
 print(mod)
-"""
 
+#comparsion operators
+a = 12
+b =23
+print(a > b)
+a=12
+b=5
+print(a<b)
+a=2
+b=7
+print(a<=b)
+a=6
+b=8
+print(a>=b)
+a=5
+b=9
+print(a==b)
+a=45
+b=89
+print(a!=b)"""
 
-
+a=8
+b=3
+c= a//b
+print(c)

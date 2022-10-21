@@ -1,7 +1,5 @@
 # OOPs concepts:
 
-
-
 '''
 1. Data structures  - 3. STATE
 2. CRUD operation   - 4. BEHAVIOR

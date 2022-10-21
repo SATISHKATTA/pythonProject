@@ -322,7 +322,7 @@ Git Support:
     Resources can be pulled from Git Hub Repo online and vice-versa; saving can be done too. Resource pulling also means cloning the code which is made available on the internet. This code can later be changed and saved.
 
 Commenting:
-     A common feature, but some of the languages do not support it. Commenting on the code helps the user to recall or track according to the sequence he wants.
+     A com mon feature, but some of the languages do not support it. Commenting on the code helps the user to recall or track according to the sequence he wants.
 
 
 

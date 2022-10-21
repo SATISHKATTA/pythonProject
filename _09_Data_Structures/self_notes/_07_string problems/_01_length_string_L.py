@@ -4,7 +4,6 @@ CRUD : Retrieval
 state : string
 behaviour : for , = , += , < , while,
 """
-
 name = 'satish'
 
 # -------- Built in ----------
@@ -39,3 +38,20 @@ def len_of_str(x):
 
 
 len_of_str('satish')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
